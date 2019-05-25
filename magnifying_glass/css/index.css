@@ -1,0 +1,30 @@
+@charset "UTF-8";
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+.img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.mirror{
+    display: none;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.2)
+}
+.enlargement{
+    background-size:250%;
+    box-sizing: border-box;
+    position: absolute;
+    left: 32.6%;
+    top: 0;
+    display: none;
+    overflow: hidden;
+   
+}
